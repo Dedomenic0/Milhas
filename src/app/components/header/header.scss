@@ -11,7 +11,7 @@ ul {
   display: flex;
   list-style: none;
   align-items: center;
-  gap: 5em;
+  gap: 2rem;
 }
 
 .logo {
@@ -21,6 +21,7 @@ ul {
 }
 
 a {
+  font: var(--mat-sys-body-medium);
   text-decoration: none;
   color: white;
 }

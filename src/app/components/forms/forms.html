@@ -1,0 +1,29 @@
+<form>
+  <div class="form-container">
+    <h1>Passagens</h1>
+  <div class="container-passagens">
+    <mat-button-toggle-group>
+      <mat-button-toggle>Ida e volta</mat-button-toggle>
+      <mat-button-toggle>Somente ida</mat-button-toggle>
+    </mat-button-toggle-group>
+  </div>
+  <div class="container">
+  <mat-form-field appearance="outline" class="mat-form">
+    <mat-icon matPrefix>flight_takeoff</mat-icon>
+    <mat-label>Origem</mat-label>
+    <input matInput>
+    <mat-icon matSuffix>search</mat-icon>
+  </mat-form-field>
+  <button mat-icon-button class="sync-button">
+    <mat-icon>sync_alt</mat-icon>
+  </button>
+    <mat-form-field appearance="outline" class="mat-form">
+      <mat-icon matPrefix>flight_land</mat-icon>
+      <mat-label>Destino</mat-label>
+      <input matInput>
+      <mat-icon matSuffix>search</mat-icon>
+    </mat-form-field>
+    <button mat-flat-button>Buscar</button>
+  </div>
+</div>
+</form>

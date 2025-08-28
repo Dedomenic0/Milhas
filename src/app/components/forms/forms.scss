@@ -1,0 +1,34 @@
+form {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 12rem;
+    background-color: #F5F5F5;
+    border-radius: 12px;
+    gap: 2rem;
+  }
+
+  .container {
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.mat-form {
+  padding: 1rem 0 0 0;
+}
+
+.sync-button{
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
